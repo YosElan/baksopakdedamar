@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Minuman</title>
+    <!-- Add Bootstrap CSS reference -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Add AOS library CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body>
+
+    <!-- Modern and Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                 <b>Bakso Pak De Damar</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                       <b> <a class="nav-link" href="#">Beranda</a></b>
+                    </li>
+                    <li class="nav-item">
+                        <b><a class="nav-link" href="#about">Tentang Kami</a></b>
+                    </li>
+                    <li class="nav-item">
+                        <b><a class="nav-link" href="#featured-products">Produk Unggulan</a></b>
+                    </li>
+                    <li class="nav-item">
+                        <b><a class="nav-link" href="#contact">Kontak</a>   </b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Carousel Slide -->
+    <section id="carousel" class="container-fluid p-0">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/image1.jpg" class="d-block w-100 h-50 mx-auto" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/image2.jpg" class="d-block w-100 h-50 mx-auto" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/image3.jpg" class="d-block w-100 h-50 mx-auto" alt="Slide 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="about" id="about" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Tentang Kami</h2>
+                <p>Bakso Pak De Damar<br> Menyediakan Hidangan Bakso dan Mie Ayam</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="image/baksourat.webp" alt="about" class="img-fluid" width="">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <h3>Selamat Datang di Bakso Pak De Damar </h3>
+                    <p> Bakso Pak De Damar yang menyediakan berbagai Hidangan Bakso dengan Mie Ayam. Dagangan ini ada sejak lama dan selalu menjual tiap harinya. Warung Kami menjual Bakso dengan harga terjangkau dan menarik untuk kita semua.
+                    </p>
+
+                    <h3> Alamat </h3>
+                    <p> MW45+JF4, Jl. Raya Cilangkap, RT.2/RW.2, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870 </p>
+
+                    <h3> Keunggulan </h3>
+                    <p> Warung kami memiliki keunggulan dalam penjualan bakso dan mie ayam, sebelumnya kami berjualan dengan tempat yang luas namun warung bakso ini sudah berpindah tempat dua kali karena beberapa hal, namun itu tidak mengubah cita rasa bakso dan mie ayam kami.</p>
+
+                    <h4> Jangan Lupa beli Bakso dan Mie Ayam Kami ~</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-products" class="container my-5">
+        <br />
+        <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="2000">Produk <span>Unggulan</span></h2>
+        <div class="row">
+            <!-- Sample menu card for featured products -->
+            <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card h-100 border-0 shadow">
+                    <img src="image/mieayambakso.webp" class="card-img-top" alt="Produk 1">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Mie Ayam Bakso</h5>
+                        <p class="card-text mb-4">Hidangan mie ayam dengan bakso</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a type="button" class="btn btn-outline-primary" href="https://wa.me/+6282112208844?text=pesan+mie+ayam+bakso+1"> Beli </a>
+                            <span class="text-muted">Rp 25.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card h-100 border-0 shadow">
+                    <img src="image/mieayambaksourat.webp" class="card-img-top" alt="Produk 2">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Mie Ayam Bakso Urat</h5>
+                        <p class="card-text mb-4">Hidangan Mie Ayam Bakso dengan Bakso Urat</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a type="button" class="btn btn-outline-primary" href="https://wa.me/+6282112208844?text=pesan+mie+ayam+bakso+urat">Beli</a>
+                            <span class="text-muted">Rp 26.000 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card h-100 border-0 shadow">
+                    <img src="image/mieayamoriginal.webp" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Mie Ayam Original</h5>
+                        <p class="card-text mb-4">Mie Ayam Original yang murah</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a type="button" class="btn btn-outline-primary" href="https://wa.me/+6282112208844?text=pesan+mie+ayam+original">Beli</a>
+                            <span class="text-muted">Rp 23.000 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card h-100 border-0 shadow">
+                    <img src="image/baksourat.webp" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Bakso Urat</h5>
+                        <p class="card-text mb-4">Bakso Urat original</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a type="button" class="btn btn-outline-primary" href="https://wa.me/+6282112208844?text=pesan+bakso+urat">Beli</a>
+                            <span class="text-muted">Rp 26.000 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add similar blocks for other products as needed -->
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="2000">Kontak Saya</h2>
+        <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <div class="button">
+                <a href="https://wa.me/+6282112208844" target="_blank">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <span>Whatsapp</span>
+                </a>
+            </div>
+            <div class="button">
+                <a href="https://gofood.co.id/jakarta/restaurant/mie-ayam-bakso-pak-de-damar-cilangkap-08e3a533-e61d-438e-9074-38c99613e531" target="_blank">
+                    <div class="icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <span>Go Food</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+<br />
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; Bakso Pak De Damar</p>
+    <p>Alamat: <a href="https://www.google.com/maps/dir//bakso+pakde+damar+cilangkap/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x2e69ecd38573493b:0x5975fd45ba980207?sa=X&ved=2ahUKEwjs9_Pk4fKDAxVeoGMGHTn1AcMQ9Rd6BAg4EAA&hl=id">MW45+JF4, Jl. Raya Cilangkap, RT.2/RW.2, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870</a></p>
+</footer>
+
+
+    <!-- Add Bootstrap JavaScript and Popper.js references -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <!-- Add AOS library JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Bootstrap JS and AOS library -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
